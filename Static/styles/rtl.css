@@ -1,0 +1,53 @@
+.line {
+  color: red;
+}
+.banner {
+  text-align: right;
+  background-color: #98bf21;
+  margin-bottom: 15px;
+}
+.nav {
+  text-align: center;
+}
+.nav li {
+  padding: 10px;
+  background-color: #98bf21;
+  font-weight: bold;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  z-index: 1;
+}
+.nav li:hover{
+  background-color: #7fa01a;
+}
+.nav li:hover .dropdown{
+  display: block;
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: -25px;
+}
+
+.dropdown li{
+  background-color: #7fa01a;
+  color: white;
+padding-left: 25px;
+width: auto;
+}
+
+.dropdown li:hover{
+  background-color: gray;
+  color: black;
+}
+.dropdown li a, .nav li a{
+  text-decoration: none;
+  color: white;
+}
+div {
+  float: left;
+}
